@@ -1,33 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head> 
+  <head> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <title>Stephen Hyde-Donohue</title>
-    <link href="styles.css" type="text/css"
-       rel="stylesheet" />
-    <meta name="description"
-      content="Portfolio of Stephen Hyde-Donohue. Hire me!" />
-    <meta name="robots"
-      content="nofollow" />
-    <meta http-equiv="author"
-      content="Stephen Hyde-Donohue" />
-    </head>
-    <h2>
-      Stephen Hyde-Donohue
-    </h2>
-    <header>
-        <div id=TopNav>
-          <a href="index.html">Home</a>
-          <a href="aboutme.html">About</a>
-          <a href="projects.html">Projects</a>
-        </div>
-    </header>
-    <body>
-        <p>projects</p>
-    </body>
-    <footer>
-        <img src="images/icons/email-14-32.png" alt="Email icon." width="32" height="32"/>
-        <img src="images/icons/GitHub-Mark-32px.png" alt="Github icon." width="32" height="32"/>
-        <img src="images/icons/LinkedIn-Icon-32px.png" alt="LI icon." width="32" height="32"/>
-    </footer>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <meta name="description" content="Portfolio of Stephen Hyde-Donohue. Hire me!" />
+    <meta name="robots" content="nofollow" />
+    <meta http-equiv="author" content="Stephen Hyde-Donohue" />
+  </head>
+  <div class=topnav>
+    <span>
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About</a>
+      <a href="projects.html">Projects</a>
+    </span>
+  </div>
+  <h1>
+    Projects
+  </h1>
+  <body>
+    <div class="row">
+      <div class="column left">
+        <h3> Unnamed Scheduler </h3>
+      </div>
+      <div class="column right">
+        Scheduler
+      </div>
+    </div>
+    <div class="row">
+      <div class="column left">
+        <h3>Room Display</h3>
+        <img src="images/Project images/roomdisplay-logo.png" alt="RoomDisplay icon" width="256" height="256"/>
+      </div>
+      <div class="column right">
+        <p>
+          My long senior project at WWU was a web application we called Room Display. Room Display was a scheduling system 
+          to replace the paper calendar used by Western Washington University’s Computer Science department to arrange 
+          use of their conference room. We also extended the functionality to be used as a schedule and information display 
+          outside a couple rooms that each acted as multiple professors offices. 
+        </p>
+        <p>
+          This new system has the advantage of 
+          allowing access to the schedule outside of the department offices from any device with a web browser, as well as 
+          easier creation of recurring events and quicker indication of room reservations at a given date and time. Room 
+          Display was written completely in Typescript using React on the front end and Node in the backend. 
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column left">
+        <h3>Unix Minishell</h3>
+        <img src="images/Project images/minishell.gif" alt="Minishell gif"> 
+      </div>
+      <div class="column right">
+        <p>
+        This minishell was built to replicate some of the classic unix shell features. Besides being able to execute unix
+        system calls it also has some its own built in commands. The minishell features environment variables, pipes, 
+        redirection and command line expansion such as * and ${VARIABLE}. This project gave me the opportunity to learn a 
+        lot about development within a Unix enivornment. The project was written in C.
+        </p>
+      </div>
+    </div>
+  </body>
+  <p>
 
+  </p>
+  <footer class="light grey sticky footer">
+    <div class="copyname">
+      &#169 Stephen Hyde-Donohue
+    </div>
+    <div class="footicons">
+      <a href="../html-link.htm" target="_blank">
+        <i class="fas fa-envelope-square"></i></a>
+      <a href="https://github.com/hydedos" target="_blank">
+        <i class="fab fa-github-square"></i></a>
+      <a href="https://www.linkedin.com/in/stephen-hyde-donohue-00438416b/" target="_blank"> 
+        <i class='fab fa-linkedin'></i></a>
+    </div>
+  </footer>
 </html>

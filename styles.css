@@ -1,32 +1,97 @@
 body {
     font-family: Helvetica;
     margin: 0; padding: 0;
-    height: 100%;}
-header {
-    color: rgb(185, 185, 185);
-    font-family: Helvetica;
-    font-size: 12pt;
     height: 100%;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+h1 {
     width: 100%;
-    vertical-align: bottom;
-    text-align: right;
-    background-color: rgb(0, 4, 54)}
-h2 {
-    font-family: Helvetica;}
-footer {
-    color: rgb(185, 185, 185);
-    font-family: Helvetica;
-    font-size: 12pt;
-    height: 10%;
-    width: 100%;
-    text-align: right;
-    background-color: rgb(201, 199, 198)}
-a:link {
-    color:  rgb(201, 199, 198);;
-    font-family: Helvetica;
-    font-size: 12pt;
+}
+h3 {
+    margin: 0; padding: 0;
+}
+
+.topnav span {
+    float: right;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    background-color: rgb(0, 4, 54);}
-a:visited {
-    color:   rgb(201, 199, 198);
-    text-decoration: none;}
+}
+.topnav a:hover {
+    background-color: rgb(231, 230, 230);
+    color: black;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    background-color: rgb(201, 199, 198);
+}
+.copyname {
+    font-size: 8px;
+    color: grey;
+    display: inline;
+    font-family: Helvetica;
+    vertical-align: text-bottom;
+    margin: 0; padding: 0;
+}
+.footicons {
+    padding-right: 10px;
+    float: right;
+
+}
+
+.footicons i {
+    padding-right: 2px;
+    font-size: 32px;
+    color: grey;
+}
+
+.footicons i:hover {
+    color: rgb(111, 121, 131);
+}
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #ddd; /* Add a thin border to each list item */
+    margin-top: -1px; /* Prevent double borders */
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 40%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.column.right {
+    vertical-align: center;
+}
+.column.left {
+    vertical-align: middle;
+}
+.column.left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .column.right, .column.left {
+      width: 100%;
+      padding: 0;
+    }
+}
